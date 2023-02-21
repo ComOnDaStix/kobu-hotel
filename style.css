@@ -1,0 +1,337 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Mono', Sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h3 {
+  color: #3e3e3e;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 17.5px;
+  letter-spacing: 0.1px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px 0 45px;
+  border-bottom: 1px solid black;
+}
+
+.header-block {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  justify-content: flex-start;
+}
+.right {
+  justify-content: flex-end;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+li {
+  margin-right: 16px;
+  cursor: pointer;
+}
+li:hover {
+  margin-right: 16px;
+  cursor: pointer;
+  color: #7A7A7A;
+}
+
+svg {
+    cursor: pointer;
+}
+svg:hover {
+    cursor: pointer;
+    color: #7A7A7A;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  padding: 8px 60px 16px 45px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 60px 16px 45px;
+  border-bottom: 2px solid black;
+}
+.full-height {
+  height: 100vh;
+}
+
+.promo-main {
+  width: 100%;
+  height: 100%;
+  background: url('https://kobu.co/wp-content/uploads/2022/05/OneOnly_Mandarina_Cover__.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 16px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.pricing a {
+  text-decoration: none;
+  color: #070707;
+}
+
+.promo-main button {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+.promo .pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.hotels {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 60px 16px 45px;
+}
+
+
+.hotels p {
+    width: 50%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hotels h2 {
+    color: #000000;
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.flex {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 25px;
+}
+
+.box {
+    width: 40%;
+}
+
+.view-hotels {
+    text-align: center;
+}
+.view-hotels:hover {
+    text-align: center;
+    cursor: pointer;
+    color: #7A7A7A;
+}
+
+
+
+.properties {
+    display: flex;
+    align-items: center;
+    padding: 0 60px 0 45px;
+    margin-top: 10%;
+    background-color: #F9F5F1;
+    border-bottom: 1px solid black;
+}
+
+.properties-text {
+    align-items: center;
+    margin-bottom: 3%;
+    
+}
+
+.h2-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+.properties-text h2 {
+    color: #070707;
+    font-size: 64px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.properties-text p {
+    width: 40%;
+    font-size: 12px;
+    margin: 0;
+    margin-left: 15%;
+}
+
+
+
+.properties-img img{
+    object-fit: cover;
+    height: 881.5px;
+    width: 881.5px;
+    justify-content: center;
+    /* margin-top: 60px;
+    flex-wrap: wrap;
+    flex-direction: row; */
+}
+
+
+
+.properties-img {
+  display: flex;
+  gap: 50px;
+}
+
+.test h3 {
+  margin: 0;
+font-size:20px;
+color: black;
+font-weight: 500;
+padding: 16px 0;
+}
+.test h3:hover {
+  margin: 0;
+font-size:20px;
+color: black;
+font-weight: 500;
+padding: 16px 0;
+cursor: pointer;
+color: #7A7A7A;
+}
+
+.test a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.test a:hover {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  cursor: pointer;
+  color: #7A7A7A;
+}
+
+
+.properties-h2 {
+  color: #000000;
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    text-align: center;
+    padding-top: 5%;
+}
+.properties-h2:hover {
+  color: #000000;
+    cursor: pointer;
+    color: #7A7A7A;
+}
+
+
+
+.footer-container {
+  display: flex;
+  padding: 0 60px 0 45px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+ justify-content: space-evenly;
+}
+
+.col{
+  list-style: none;
+}
+
+.col h3{
+font-size: 15px;
+font-weight: 600;
+align-items: center;
+}
+
+
+.col li {
+font-size: 15px;
+font-weight: 500;
+}
+
+.col-2 h3 {
+  font-size: 15px;
+font-weight: 600;
+align-items: center;
+}
+
+.col-2 input {
+  width: 100%;
+  height: 32px;
+}
+
+.social-links{
+text-align: center;
+}
+.social-links:hover{
+text-align: center;
+cursor: pointer;
+}
+
+
+
+
+
+@keyframes slidein {
+  from {
+    transform: scale(0%);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(100%);
+    opacity: 1;
+  }
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  width: 100vw;
+  height: 100vh;
+  animation: 2s slidein;
+  overflow: hidden;
+  
+  
+}
+
+
